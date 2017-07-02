@@ -1,0 +1,56 @@
+/*============================
+=            Hero            =
+============================*/
+#hero {
+	height: 550px;
+	
+	.hero-unit {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		background-color: transparent;
+		
+		h1{
+			font-size: 70px;
+			font-weight: 200;
+			margin-top: 70px;
+		}
+	}
+	.hero-start-link,
+	.hero-start-link:focus {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		margin-left: -19px;
+		margin-bottom: 15px !important;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border: 2px solid @text-color;
+		border-radius: 50%;
+		line-height: 36px;
+		text-align: center;
+		font-size: 28px;
+		color: @menu-text-color;
+		background-color: @text-color;
+		
+		&:hover {
+			color: @brand-primary;
+			text-decoration: none;
+		}
+	}	
+
+	.img-hero {
+		background-image: url('../img/mockup4.png');
+	    background-repeat: no-repeat;
+	    background-position: center top !important;
+	    text-align: center;
+	    padding-top: 100px;
+	    height: 400px;
+		
+		@media (max-width: 767px) {
+		    margin-top: 30px;
+		}
+	}
+}	
+/*-----  End of Hero  ------*/

@@ -1,0 +1,258 @@
+html * {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body {
+	font-family: @font-family-base;
+	font-weight: 400;
+	color: @text-color;
+	font-size: @font-size-base;
+
+	position: relative;
+	right: 0;
+}
+body {
+	background-color: @body-bg;
+}
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-weight: 300;
+}
+b, strong {
+  font-weight: 600;
+}
+hr {
+	border-top: 1px solid @brand-secondary;
+	// margin: 15px 0;
+}
+
+ul,ol {
+	padding-left: 18px;
+}
+ol li{
+	padding-left: 5px;
+}
+
+a {
+	color: @link-color;
+	text-decoration: none;
+	font-weight: 400;
+	
+	.transition(all 0.3s);
+
+	&:hover{	
+		color: @link-hover-color;
+		text-decoration: none;
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+p{
+	 border: 0; 
+	 font-size: 100%; 
+	 font: inherit; 
+	 line-height: 24px;
+	 margin-bottom: 15px;
+}
+
+::selection {
+  background: lighten(@brand-primary, 10%);; 
+}
+
+.lead {
+	font-weight: 400;
+	font-style: italic;
+	color: #A0A0A0;
+}
+
+.color {
+	background-color: @brand-primary;
+}
+
+.bg-shop {
+  background-color: @brand-primary;
+}
+
+
+// Helper
+
+/*================================
+=            Sections            =
+================================*/
+
+section {
+	// parallax fix
+	// background-color: @body-bg;
+	position: relative;
+	overflow: hidden;
+}
+.header {
+	text-align: center;
+	h2{
+		font-size: 38px;
+		font-weight: 400;
+		display: block;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 21px;
+		line-height: 28px;
+		font-weight: 300;
+		margin-bottom: 60px;
+	}
+}
+/*-----  End of Sections  ------*/
+
+.padding-top {
+	padding-top: @padding;
+}
+.padding-bottom {
+	padding-bottom: @padding;
+}
+.padding-top-bottom {
+	padding-top: @padding;
+	padding-bottom: @padding;
+}
+.nopadding {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.color-text {
+	color: @brand-primary;
+}
+	
+.white-text {
+	color: #FFF!important;
+}
+/*================================
+=            Half box            =
+================================*/
+
+.half-box-left {
+	max-width:555px;
+	float: right;
+	height: inherit;
+	padding-right: 30px;
+
+	@media (max-width: 1200px) {
+		max-width: 455px;
+		padding-right: 30px;
+	}
+	@media (max-width: 992px) {
+		max-width: 345px;
+		padding-right: 15px;
+	}
+	@media (max-width: 767px) {
+		max-width: 100%;
+  }
+}
+
+.half-box-right {
+	max-width:555px;
+	float: left;
+	height: inherit;
+	padding-left: 40px;
+
+	@media (max-width: 1200px) {
+		max-width: 455px;
+		padding-left: 40px;
+	}
+	@media (max-width: 992px) {
+		max-width: 345px;
+		padding-left: 30px;
+	}
+	@media (max-width: 767px) {
+		max-width: 100%;
+	}
+}
+/*-----  End of Half box  ------*/
+
+/* center module */
+.m-center {
+	display: table;
+	width: 100%;
+	.center-box {
+		display: table-cell;
+		vertical-align: middle;
+		margin-top: 0;
+		margin-bottom: 0;
+		float: none;
+		z-index: 60;
+	}
+}	
+.m-center > div > div{
+	position: relative;
+}
+
+/*=======================================
+=            Center vertical            =
+=======================================*/
+
+.center-vertical {
+	display: table;
+	height: inherit;
+	
+	.center-vertical-box {
+		display: table-cell;
+		vertical-align: middle;
+		margin-top: 0;
+		margin-bottom: 0;
+		float: none;
+		z-index: 60;
+		height: inherit;
+	}
+}
+/*-----  End of Center vertical  ------*/
+
+/*===============================
+=            Spinner            =
+===============================*/
+.spinner {
+  margin: 0 auto;
+  width: 70px;
+  text-align: center;
+}
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0); }
+  40% { -webkit-transform: scale(1.0); }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+	transform: scale(0.0);
+	-webkit-transform: scale(0.0);
+  } 40% { 
+	transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+  }
+}
+/*-----  End of Spinner  ------*/

@@ -1,0 +1,98 @@
+/*====================================
+=            Modal window            =
+====================================*/
+#product-modal {
+	.modal-header {
+		padding: 0;
+	}
+}		
+.modal {
+
+	.modal-header {
+		//padding: 0;
+		border-bottom:none;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		
+		h2 {
+			margin-top: 10px;
+		}
+		img{
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+		}
+	}	
+	.modal-body {
+		padding-bottom:0;
+		
+		h3{
+		margin: 0;
+		}
+	}
+	.modal-footer {
+		border:0;
+	}
+	form p {
+		margin: 0;
+	}
+	.form-group {
+		margin-bottom: 15px;
+	}
+}
+
+
+
+.close-modal {
+	position: absolute;
+	top:18px;
+	height: 50px;
+	width: 50px;
+	z-index: 200;
+	border-radius: 50%;
+	right: 15px;
+	background-color: #202020;
+	.transition(all 0.2s ease-in-out);
+
+	&:hover {
+		background-color: @brand-primary;
+		
+		.menu-icon:after,
+		.menu-icon:before{
+			background-color: #202020;
+		}
+	}
+	.menu-icon {
+		display: inline-block;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		bottom: auto;
+		right: auto;
+		width: 18px;
+		height: 2px;
+	 	background-color: rgba(255, 255, 255, 0);
+	 	.translate(-50%, -50%);
+	}
+}
+.close-modal .menu-icon::before, 
+.close-modal .menu-icon::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: inherit;
+	left: 0;
+	.translateZ();
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	.transition(transform .3s);
+}
+.close-modal .menu-icon::before {
+	background-color: #FFF;
+	.rotate(45deg);
+}
+.close-modal .menu-icon::after {
+	background-color: #FFF;
+	.rotate(-45deg);
+}
+/*-----  End of Modal window  ------*/

@@ -1,0 +1,46 @@
+/*==============================
+=            Footer            =
+==============================*/
+.footer-1 {
+	background-color: #1d2023;
+	padding: 80px 0 70px 0;
+	color: @brand-secondary;
+	overflow: visible;
+			
+	.copyright-text {
+		margin: 10px 0 0 0;
+		float: left;
+	}
+
+	.back-to-top {
+		width: 52px;
+		height: 52px;
+		line-height: 45px;
+		margin: -78px auto 26px;
+		display: block;
+		font-size: 28px;
+		text-align: center;
+		background: @brand-primary;
+		color: #fff;
+		border-radius: 26px;
+		position: relative;
+		top: -30px;
+
+		&:hover {
+			color: @text-color;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.copyright-text {
+			padding-bottom: 15px;
+		}
+		
+		.copyright-text,
+		.social-links-2 {
+			float: none!important;
+			text-align: center;
+		}
+	}
+}	
+/*-----  End of Footer   ------*/

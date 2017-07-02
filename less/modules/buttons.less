@@ -1,0 +1,80 @@
+/*===============================
+=            Buttons            =
+===============================*/
+.btn {
+	position: relative;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 46px;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	padding: 0 35px;
+	margin: 0 10px 15px 0;
+	color: @btn-text-color;
+	background: @btn-default-color;
+	-webkit-font-smoothing: subpixel-antialiased;
+	.transition(none);
+	.box-shadow(0 4px 0 @btn-hover-color);
+
+	&:hover,
+	&:focus {
+		outline: none;
+		top: 4px;
+		.box-shadow(none);   
+	}
+	&:active,
+	&.active {
+		outline: none;
+		.box-shadow(none);
+	}
+	i.fa {
+		padding-right: 10px;
+	}
+	b {
+		font-size: 26px;
+		line-height: 48px;
+		vertical-align: bottom;
+		padding: 0 10px 0 0;
+	}
+	span {
+		font-weight: 700;
+		font-size: 24px;
+		margin: 0;
+		vertical-align: middle;
+		display: inline-block;
+		padding: 0 0 5px 5px;
+	}
+
+	&.white {
+		background: #FFF;
+		box-shadow: none;
+		color:#202020;
+		text-decoration: none;
+		.box-shadow(0 4px 0 #E0E0E0);
+
+		&:hover,
+		&:focus {
+			color: #202020;
+			top: 4px;
+			text-decoration: none;
+			.box-shadow(none);
+		}
+	}
+	&.dark {
+		background: #202020;
+		box-shadow: none;
+		color: #fff;
+		text-decoration: none;
+		.box-shadow(0 4px 0 #000);
+
+		&:hover,
+		&:focus {
+			color: #fff;
+			top: 4px;
+			text-decoration: none;
+			.box-shadow(none);
+		}
+	}
+}		
+/*-----  End of Buttons  ------*/

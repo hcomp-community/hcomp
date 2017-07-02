@@ -1,0 +1,145 @@
+/*===================================
+=               Sliders             =
+===================================*/
+
+.slider{
+	background-color: @brand-secondary; //#95a5a6;
+	height: 500px;
+	padding: 0;
+
+	.landing {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10001;
+		width: 100%;
+		height: 100%;
+		
+		.spinner {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			margin: auto auto;
+			width: 5em;
+			height: 2em;
+			text-align: center;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+	}	
+	.item {
+		background-size: cover;
+		position: absolute;
+		width: inherit;
+		height: inherit;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}	
+
+.owl-item {
+  //height: 500px;
+  overflow: hidden;
+}
+.owl-carousel,
+.owl-stage-outer,
+.owl-stage,
+.owl-item {
+	height: inherit;
+}
+.owl-nav {
+  // display: none;
+}
+
+.owl-theme .owl-controls {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-controls .owl-nav [class*='owl-'] {
+  background: transparent;
+  display:inline-block;
+  color:#FFF;
+  font-size: 25px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align:center;
+  border-radius:50%;
+  -webkit-transition:all .3s ease-out;
+  transition:all .3s ease-out;
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-nav [class*='owl-']:hover {
+  background: rgba(255, 255, 255, 0.5);
+  /*border: 2px solid #fff;*/
+  /*color: white;*/
+  text-decoration: none;
+}
+.owl-nav .fa{
+  font-size: 33px;
+  line-height: 48px;
+  /* position: absolute; */
+  /* width: 100%; */
+  /* top: 10%; */
+}
+
+.owl-theme .owl-controls .owl-nav .owl-next {
+  top: 45%;
+  right: 20px;
+}
+.owl-theme .owl-controls .owl-nav .owl-prev {
+  top: 45%;
+  left: 20px;
+}
+.owl-theme .owl-dots {
+/*  margin-top: 55px;*/
+}
+.owl-theme .owl-controls .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.owl-theme .owl-dots  {
+  position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  background: #FFF;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  opacity: 0.5;
+	filter: Alpha(Opacity=50);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #FFF;
+  opacity: 1;
+	filter: Alpha(Opacity=100);
+}
+/*-----  End of Slider  ------*/
+
