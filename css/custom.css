@@ -1,0 +1,13 @@
+.partners .img-responsive{
+    height:60px;
+    max-height: auto;
+    max-width: auto;
+    width:auto;
+}
+.screenshot{
+    max-width:80%;
+}
+
+#start ul li{
+    text-align:left;
+}
