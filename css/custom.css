@@ -1,8 +1,10 @@
-.partners .img-responsive{
-    height:60px;
-    max-height: auto;
-    max-width: auto;
-    width:auto;
+h1.title{
+margin-top: 100px;
+font-size: 60px
+}
+.partners img{
+    max-width:90%;
+    max-height:70px;
 }
 .screenshot{
     width:100%;
