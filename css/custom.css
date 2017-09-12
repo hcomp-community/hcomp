@@ -16,3 +16,8 @@ font-size: 60px
 .img-circle{
     border:2px solid #fff;
 }
+
+.partners img{
+    max-width:200px;
+    margin-top:5px;
+} 
