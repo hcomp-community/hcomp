@@ -21,3 +21,13 @@ font-size: 60px
     max-width:200px;
     margin-top:5px;
 } 
+
+.members .col-sm-3.member{
+    margin-bottom: 20px;   
+}
+.members .col-sm-3.member .fullname{
+    font-size:18px;
+}
+.members .col-sm-3.member .country{
+    opacity:0.5;
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "First name": "Alessandro",
+    "Last name": "Bozzon",
+    "affiliation": "Delft University of Technology",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Pavel",
+    "Last name": "Kucherbaev",
+    "affiliation": "Delft University of Technology",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Lora",
+    "Last name": "Aroyo",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Evgeny",
+    "Last name": "Krivosheev",
+    "affiliation": "University of Trento",
+    "country": "Italy"
+  },
+  {
+    "First name": "Jie",
+    "Last name": "Yang",
+    "affiliation": "Delft University of Technology",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Florian",
+    "Last name": "Daniel",
+    "affiliation": "Politecnico di Milano",
+    "country": "Italy"
+  },
+  {
+    "First name": "Panagiotis",
+    "Last name": "Mavridis",
+    "affiliation": "University of Rennes 1",
+    "country": "France"
+  },
+  {
+    "First name": "Tobias",
+    "Last name": "Hossfeld",
+    "affiliation": "University of Duisburg-Essen",
+    "country": "Germany"
+  },
+  {
+    "First name": "Matthias",
+    "Last name": "Hirth",
+    "affiliation": "University of Würzburg",
+    "country": "Germany"
+  },
+  {
+    "First name": "Matt",
+    "Last name": "Lease",
+    "affiliation": "University of Texas at Austin",
+    "country": "USA"
+  },
+  {
+    "First name": "Carlos",
+    "Last name": "Rodriguez",
+    "affiliation": "UNSW Sydney",
+    "country": "Australia"
+  },
+  {
+    "First name": "Steven",
+    "Last name": "Dow",
+    "affiliation": "UC San Diego",
+    "country": "USA"
+  },
+  {
+    "First name": "Brian",
+    "Last name": "McInnis",
+    "affiliation": "Cornell University",
+    "country": "USA"
+  },
+  {
+    "First name": "Geert-Jan",
+    "Last name": "Houben",
+    "affiliation": "TU Delft",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Andrea",
+    "Last name": "Mauri",
+    "affiliation": "Politecnico di Milano",
+    "country": "Italy"
+  },
+  {
+    "First name": "Michael",
+    "Last name": "Bernstein",
+    "affiliation": "Stanford University",
+    "country": "USA"
+  },
+  {
+    "First name": "Fabio",
+    "Last name": "Casati",
+    "affiliation": "U of Trento",
+    "country": "Italy"
+  },
+  {
+    "First name": "Benjamin",
+    "Last name": "Timmermans",
+    "affiliation": "IBM",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Elena",
+    "Last name": "Simperl",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Siddharth",
+    "Last name": "Suri",
+    "affiliation": "Microsoft Research",
+    "country": "USA"
+  },
+  {
+    "First name": "Jane",
+    "Last name": "Hsu",
+    "affiliation": "National Taiwan University",
+    "country": "Taiwan"
+  },
+  {
+    "First name": "Elisa",
+    "Last name": "Celis",
+    "affiliation": "EPFL",
+    "country": "Switzerland"
+  },
+  {
+    "First name": "Sebastian",
+    "Last name": "Stein",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Marco",
+    "Last name": "Brambilla",
+    "affiliation": "Politecnico di Milano",
+    "country": "Italy"
+  },
+  {
+    "First name": "Elliot",
+    "Last name": "Salisbury",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "HyunJoon",
+    "Last name": "Jung",
+    "affiliation": "Apple",
+    "country": "USA"
+  },
+  {
+    "First name": "Filipe",
+    "Last name": "Rodrigues",
+    "affiliation": "Technical University of Denmark (DTU)",
+    "country": "Denmark"
+  },
+  {
+    "First name": "Rucha",
+    "Last name": "Bapat",
+    "affiliation": "Delft University of Technology",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "miori",
+    "Last name": "sagara",
+    "affiliation": "Baobab,Inc.",
+    "country": "Japan"
+  },
+  {
+    "First name": "Andres",
+    "Last name": "Monroy-Hernandez",
+    "affiliation": "Snap Research and U.W.",
+    "country": "USA"
+  },
+  {
+    "First name": "Ei Pa",
+    "Last name": "Than",
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA"
+  },
+  {
+    "First name": "Jonathan",
+    "Last name": "Brier",
+    "affiliation": "University of Maryland",
+    "country": "USA"
+  },
+  {
+    "First name": "Andrew",
+    "Last name": "Su",
+    "affiliation": "Scripps Research Institute",
+    "country": "USA"
+  },
+  {
+    "First name": "Lesandro",
+    "Last name": "Ponciano",
+    "affiliation": "PUC Minas",
+    "country": "Brazil"
+  },
+  {
+    "First name": "Ari",
+    "Last name": "Kobren",
+    "affiliation": "University of Massachusetts Amherst",
+    "country": "USA"
+  },
+  {
+    "First name": "manoj",
+    "Last name": "pandey",
+    "affiliation": "msit",
+    "country": "India"
+  },
+  {
+    "First name": "Alexandra",
+    "Last name": "Papoutsaki",
+    "affiliation": "Pomona College",
+    "country": "USA"
+  },
+  {
+    "First name": "Michele",
+    "Last name": "Catasta",
+    "affiliation": "Stanford University",
+    "country": "USA"
+  },
+  {
+    "First name": "Neslihan",
+    "Last name": "Büyükdemircioglu",
+    "affiliation": "TU Berlin",
+    "country": "Germany"
+  },
+  {
+    "First name": "Shayan",
+    "Last name": "Doroudi",
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA"
+  },
+  {
+    "First name": "Christine",
+    "Last name": "Gerber",
+    "affiliation": "Berlin Social Science Center (WZB)",
+    "country": "Germany"
+  },
+  {
+    "First name": "Manisha",
+    "Last name": "Verma",
+    "affiliation": "UCL",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Peter",
+    "Last name": "Organisciak",
+    "affiliation": "University of Denver",
+    "country": "USA"
+  },
+  {
+    "First name": "Deshraj",
+    "Last name": "Yadav",
+    "affiliation": "Georgia Tech",
+    "country": "USA"
+  },
+  {
+    "First name": "John",
+    "Last name": "Lalor",
+    "affiliation": "University of Massachusetts",
+    "country": "USA"
+  },
+  {
+    "First name": "Anand",
+    "Last name": "Kulkarni",
+    "affiliation": "Crowdbotics",
+    "country": "USA"
+  },
+  {
+    "First name": "Umair",
+    "Last name": "Ul Hassan",
+    "affiliation": "Insight Centre for Data Analytics",
+    "country": "Ireland"
+  },
+  {
+    "First name": "Guanliang",
+    "Last name": "Chen",
+    "affiliation": "TU Delft",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Soudip",
+    "Last name": "Roy Chowdhury",
+    "affiliation": "Fractal Analytics",
+    "country": "India"
+  },
+  {
+    "First name": "angela",
+    "Last name": "di fiore",
+    "affiliation": "university of trento",
+    "country": "Italy"
+  },
+  {
+    "First name": "Vladimir",
+    "Last name": "Kukushkin",
+    "affiliation": "Yandex",
+    "country": "Russia"
+  },
+  {
+    "First name": "Olga",
+    "Last name": "Megorskaya",
+    "affiliation": "Yandex",
+    "country": "Russia"
+  },
+  {
+    "First name": "Hua",
+    "Last name": "Guo",
+    "affiliation": "Twitter",
+    "country": "USA"
+  },
+  {
+    "First name": "Markus",
+    "Last name": "Dücker",
+    "affiliation": "neXenio",
+    "country": "Germany"
+  },
+  {
+    "First name": "John",
+    "Last name": "Prpic",
+    "affiliation": "Thompson Rivers University",
+    "country": "Canada"
+  },
+  {
+    "First name": "Karthik Abinav",
+    "Last name": "Sankararaman",
+    "affiliation": "University of Maryland College Park",
+    "country": "USA"
+  },
+  {
+    "First name": "Jonas",
+    "Last name": "Oppenlaender",
+    "affiliation": "Free University of Berlin",
+    "country": "Germany"
+  },
+  {
+    "First name": "Winter",
+    "Last name": "Mason",
+    "affiliation": "Facebook",
+    "country": "USA"
+  },
+  {
+    "First name": "Zoltán",
+    "Last name": "Szlávik",
+    "affiliation": "IBM",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Roser",
+    "Last name": "Morante Vallejo",
+    "affiliation": "VU Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Erkan",
+    "Last name": "Basar",
+    "affiliation": "FloodTags",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Victor",
+    "Last name": "de Boer",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Arjen",
+    "Last name": "de Vries",
+    "affiliation": "Radboud University & Spinque",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Sofia",
+    "Last name": "Silva",
+    "affiliation": "Tasko.ai",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Wessel",
+    "Last name": "Luijben",
+    "affiliation": "Anchormen",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Oana",
+    "Last name": "Inel",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "misra",
+    "Last name": "turp",
+    "affiliation": "IBM",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Anca",
+    "Last name": "Dumitrache",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Davide",
+    "Last name": "Ceolin",
+    "affiliation": "CWI",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Akash",
+    "Last name": "Singh",
+    "affiliation": "MSc student",
+    "country": "Canada"
+  },
+  {
+    "First name": "Luca",
+    "Last name": "de Alfaro",
+    "affiliation": "UC Santa Cruz",
+    "country": "USA"
+  },
+  {
+    "First name": "Haym",
+    "Last name": "Hirsh",
+    "affiliation": "Cornell University",
+    "country": "USA"
+  },
+  {
+    "First name": "Chen",
+    "Last name": "Hajaj",
+    "affiliation": "Vanderbilt University",
+    "country": "USA"
+  },
+  {
+    "First name": "Tyler",
+    "Last name": "McDonnell",
+    "affiliation": "The University of Texas at Austin",
+    "country": "USA"
+  },
+  {
+    "First name": "Eddy",
+    "Last name": "Maddalena",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Arjun",
+    "Last name": "Chandrasekaran",
+    "affiliation": "Georgia tech",
+    "country": "USA"
+  },
+  {
+    "First name": "Alexandros",
+    "Last name": "Zenonos",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Karan",
+    "Last name": "Goel",
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA"
+  },
+  {
+    "First name": "Alex",
+    "Last name": "Williams",
+    "affiliation": "University of Waterloo",
+    "country": "Canada"
+  },
+  {
+    "First name": "Theodore",
+    "Last name": "Papamarkou",
+    "affiliation": "University of Glasgow",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Shaun",
+    "Last name": "Shaun",
+    "affiliation": "Brown University",
+    "country": "USA"
+  },
+  {
+    "First name": "Marisa",
+    "Last name": "Nest",
+    "affiliation": "Freie Universität Berlin",
+    "country": "Germany"
+  },
+  {
+    "First name": "Genevieve",
+    "Last name": "Patterson",
+    "affiliation": "MSR",
+    "country": "USA"
+  },
+  {
+    "First name": "Darren",
+    "Last name": "Gergle",
+    "affiliation": "Northwestern University",
+    "country": "USA"
+  },
+  {
+    "First name": "lukas",
+    "Last name": "biewald",
+    "affiliation": "crowdflower",
+    "country": "USA"
+  },
+  {
+    "First name": "Claudia",
+    "Last name": "Müller-Birn",
+    "affiliation": "Freie Universität Berlin",
+    "country": "Germany"
+  },
+  {
+    "First name": "Sang Won",
+    "Last name": "Lee",
+    "affiliation": "University of Michigan, Ann Arbor",
+    "country": "USA"
+  },
+  {
+    "First name": "Ming",
+    "Last name": "Yin",
+    "affiliation": "Microsoft Research & Purdue University",
+    "country": "USA"
+  },
+  {
+    "First name": "Min-Yen",
+    "Last name": "Kan",
+    "affiliation": "National University of Singapore",
+    "country": "Singapore"
+  },
+  {
+    "First name": "Helen",
+    "Last name": "Spiers",
+    "affiliation": "University of Oxford",
+    "country": "UK"
+  },
+  {
+    "First name": "Yotam",
+    "Last name": "Gingold",
+    "affiliation": "George Mason University",
+    "country": "USA"
+  },
+  {
+    "First name": "Barbara",
+    "Last name": "Poblete",
+    "affiliation": "University of Chile",
+    "country": "Chile"
+  },
+  {
+    "First name": "Robert",
+    "Last name": "Munro",
+    "affiliation": "CrowdFlower",
+    "country": "USA"
+  },
+  {
+    "First name": "Maximilian",
+    "Last name": "Mackeprang",
+    "affiliation": "Freie Universität Berlin",
+    "country": "Germany"
+  },
+  {
+    "First name": "Deshraj",
+    "Last name": "Yadav",
+    "affiliation": "Georgia Tech",
+    "country": "USA"
+  },
+  {
+    "First name": "Jude",
+    "Last name": "Mwenda",
+    "affiliation": "Georgia Tech",
+    "country": "USA"
+  },
+  {
+    "First name": "Jan",
+    "Last name": "Harms",
+    "affiliation": "TU Delft",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Takumi",
+    "Last name": "Sakamoto",
+    "affiliation": "Kaizen Platform, Inc.",
+    "country": "Japan"
+  },
+  {
+    "First name": "Angela",
+    "Last name": "Richmond-Fuller",
+    "affiliation": "Freelance Consultant",
+    "country": "Bulgaria"
+  },
+  {
+    "First name": "Markus",
+    "Last name": "Luczak-Roesch",
+    "affiliation": "Victoria University of Wellington",
+    "country": "New Zealand"
+  }
+]
