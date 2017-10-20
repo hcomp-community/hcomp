@@ -6,4 +6,5 @@ Slack community: http://hcomp.community
 
 * Relevant conferences https://github.com/hcomp-community/conferences
 * Relevant survey papers https://github.com/hcomp-community/survey-papers
+* Relevant companies https://github.com/hcomp-community/companies/
 
