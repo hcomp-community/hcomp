@@ -3,5 +3,5 @@
 ## USEFUL MATERIAL
 
 * Relevant conferences https://github.com/hcomp-community/conferences
-* "Follow The Crowd" blog https://humancomputation.com/blog/
+* Relevant survey papers https://github.com/hcomp-community/survey-papers
 
