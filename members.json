@@ -598,5 +598,77 @@
     "Last name": "Luczak-Roesch",
     "affiliation": "Victoria University of Wellington",
     "country": "New Zealand"
+  },
+  {
+    "First name": "Davide",
+    "Last name": "Ceolin",
+    "affiliation": "CWI",
+    "country": "The Netherlands"
+  },
+  {
+    "First name": "Davide",
+    "Last name": "Aurucci",
+    "affiliation": "IBM",
+    "country": "Netherlands"
+  },
+  {
+    "First name": "Stuart",
+    "Last name": "Lynn",
+    "affiliation": "CARTO",
+    "country": "USA"
+  },
+  {
+    "First name": "Anisa",
+    "Last name": "Rula",
+    "affiliation": "University of Milano-Bicocca",
+    "country": "Italy"
+  },
+  {
+    "First name": "Irene",
+    "Last name": "Celino",
+    "affiliation": "Cefriel",
+    "country": "Italy"
+  },
+  {
+    "First name": "Pietro",
+    "Last name": "Michelucci",
+    "affiliation": "Human Computation Institute",
+    "country": "United States of America"
+  },
+  {
+    "First name": "Hangxin",
+    "Last name": "Lu",
+    "affiliation": "ETH Zurich",
+    "country": "Switzerland"
+  },
+  {
+    "First name": "Rajan",
+    "Last name": "Vaish",
+    "affiliation": "Snap Research",
+    "country": "United States"
+  },
+  {
+    "First name": "Jazmine",
+    "Last name": "Maldonado",
+    "affiliation": "Inria Chile",
+    "country": "Chile"
+  },
+  {
+    "First name": "Minsuk",
+    "Last name": "Chang",
+    "affiliation": "KAIST",
+    "country": "South Korea"
+  },
+  {
+    "First name": "Qiong",
+    "Last name": "Bu",
+    "affiliation": "University of Southampton",
+    "country": "United Kingdom"
+  },
+  {
+    "First name": "Agnes",
+    "Last name": "Horvat",
+    "affiliation": "Northwestern University",
+    "country": "USA"
   }
 ]
