@@ -31,3 +31,19 @@ font-size: 60px
 .members .col-sm-3.member .country{
     opacity:0.5;
 }
+
+
+#sign-up-email{
+    height:48px;
+    text-align:center;
+    font-size:18px;
+    font-weight: bold;
+}
+#sign-up-button{
+    margin-top:-3px;
+}
+.hero-unit a{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
