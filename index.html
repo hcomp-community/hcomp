@@ -18,10 +18,14 @@
     <link rel="apple-touch-icon" sizes="120x120" href="img/ico/120.png" type="image/png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/ico/152.png" type="image/png">
     <script type="text/javascript" src="js/modernizr.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
      <![endif]-->
+
+
 </head>
 
 <body id="home">
@@ -42,7 +46,7 @@
                                 <div>
                                     <input type="text" id="sign-up-email" class="form-control" aria-label="Text input with dropdown button" placeholder="email address">
                                     <br/>
-                                    <button type="button" class="btn white btn-secondary" id="sign-up-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="btn white btn-secondary"  id="sign-up-button" data-toggle="dropdown" aria-haspopup="true"  data-callback='onSubmit'  aria-expanded="false">
                                         JOIN NOW
                                     </button>
                                     <p id="sign-up-message"></p>
